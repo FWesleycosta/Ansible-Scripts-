@@ -1,0 +1,189 @@
+---
+    - name: 'Clear port Interfaces 0/1'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/1
+      register: output
+    - name: 'Clear port Interfaces 0/2'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/2
+      register: output
+    - name: 'Clear port Interfaces 0/3'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/3
+      register: output
+    - name: 'Clear port Interfaces 0/5'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/5
+      register: output
+    - name: 'Clear port Interfaces 0/6'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/6
+      register: output
+    - name: 'Clear port Interfaces 0/7'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/7
+      register: output    
+    - name: 'Clear port Interfaces 0/8'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/8
+      register: output
+    - name: 'Clear port Interfaces 0/9'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/9
+      register: output
+    - name: 'Clear port Interfaces 0/10'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/10
+      register: output
+    - name: 'Clear port Interfaces 0/11'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/11
+      register: output
+    - name: 'Clear port Interfaces 0/12'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/12
+      register: output
+    - name: 'Clear port Interfaces 0/13'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/13
+      register: output
+    - name: 'Clear port Interfaces 0/14'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/14
+      register: output
+    - name: 'Clear port Interfaces 0/15'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/15
+      register: output
+    - name: 'Clear port Interfaces 0/16'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/16
+      register: output
+    - name: 'Clear port Interfaces 0/17'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/17
+      register: output
+    - name: 'Clear port Interfaces 0/18'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/18
+      register: output
+    - name: 'Clear port Interfaces 0/19'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/19
+      register: output
+    - name: 'Clear port Interfaces 0/20'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/20
+      register: output
+    - name: 'Clear port Interfaces 0/21'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/21
+      register: output
+    - name: 'Clear port Interfaces 0/22'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/22
+      register: output
+    - name: 'Clear port Interfaces 0/23 '
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/23
+      register: output
+    - name: 'Clear port Interfaces 0/24'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/24
+      register: output
+    - name: 'Clear port Interfaces 0/25'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/25
+      register: output
+    - name: 'Clear port Interfaces 0/26'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/26
+      register: output
+    - name: 'Clear port Interfaces 0/27'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/27
+      register: output
+    - name: 'Clear port Interfaces 0/28'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/28
+      register: output
+    - name: 'Clear port Interfaces 0/29'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/29
+      register: output
+    - name: 'Clear port Interfaces 0/30'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/30
+      register: output
+    - name: 'Clear port Interfaces 0/31'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/31
+      register: output
+    - name: 'Clear port Interfaces 0/32'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/32
+      register: output
+    - name: 'Clear port Interfaces 0/33'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/33
+      register: output
+    - name: 'Clear port Interfaces 0/34'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/34
+      register: output
+    - name: 'Clear port Interfaces 0/35'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/35
+      register: output
+    - name: 'Clear port Interfaces 0/36'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/36
+      register: output
+    - name: 'Clear port Interfaces 0/37'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/37
+      register: output
+    - name: 'Clear port Interfaces 0/38'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/38
+      register: output
+    - name: 'Clear port Interfaces 0/39'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/39
+      register: output
+    - name: 'Clear port Interfaces 0/40'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/40
+      register: output
+    - name: 'Clear port Interfaces 0/41'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/41
+      register: output
+    - name: 'Clear port Interfaces 0/42'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/42
+      register: output
+    - name: 'Clear port Interfaces 0/43'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/43
+      register: output
+    - name: 'Clear port Interfaces 0/44'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/44
+      register: output
+    - name: 'Clear port Interfaces 0/45'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/45
+      register: output
+    - name: 'Clear port Interfaces 0/46 '
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/46
+      register: output 
+    - name: 'Clear port Interfaces 0/47'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/47
+      register: output  
+    - name: 'Clear port Interfaces 0/48'
+      ios_command:
+        commands: clear port-security sticky interface fastEthernet0/48
+      register: output                                                                                                                                                                                                                                                                           

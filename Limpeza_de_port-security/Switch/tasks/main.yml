@@ -1,0 +1,11 @@
+---
+  - name: gather IOS facts
+    ios_facts:	
+  - name: Shutdown notconnect interfaces
+    ios_config:
+      lines: 
+        - shutdown
+        - no shutdown
+      parents: "interface {{ item.key }}"
+    with_dict: "{{ ansible_net_interfaces }}"
+    when: item.value.operstatus == "down"
