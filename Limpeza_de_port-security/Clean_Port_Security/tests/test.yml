@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - Clean_Port_Security
